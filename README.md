@@ -10,20 +10,58 @@ Demonstrates:
 - Relational DB queries
    - Queries from individual tables
    - Queries with JOINs from both
-- Uploading and storing of images
-   - Stored in a server folder (write permissions required)
-   - URL only stored in DB
+- Crude security for admin features
+  - Password page (hard-coded)
 
 Site has a simple but responsive UI, including:
 - mobile-first design
-- lists of teams / members
+- lists of services and bookings
 - expanded team details view
 - pop-in menu
 
 
 ## Screenshots
 
-Team List
+Home Page
 
-![Team List](ui/ui-teams.png)
+![Home](ui/ui-home.png)
+
+Main Menu
+
+![Menu](ui/ui-menu.png)
+
+List of Services
+
+![Services](ui/ui-services.png)
+
+Home Page on Mobile
+
+![Home on Mobile](ui/ui-mob.png)
+
+List of Services on Mobile
+
+![Services on Mobile](ui/ui-mob-services.png)
+
+New Booking (without having first selected a service)
+
+![New Booking](ui/ui-book.png)
+
+New Booking (having first selected a service)
+
+![New Booking](ui/ui-book-service.png)
+
+### Admin Features
+
+Admin Password
+
+![Password](ui/ui-password.png)
+
+View All Bookings
+
+![All Bookings](ui/ui-bookings.png)
+
+Booking Details
+
+![Booking](ui/ui-booking.png)
+
 
